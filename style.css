@@ -4,6 +4,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+    cursor: url('Paw-Cursor.png'), auto; /* Custom cursor for the entire body */
 }
 
 .container {
@@ -37,35 +38,28 @@ nav li {
 nav a {
     text-decoration: none;
     color: blue;
-    cursor: url('Main/Paw-Cursor.png'), auto;
+    cursor: url('Paw-Cursor.png'), auto; /* Custom cursor for links */
+}
 
 nav a:hover {
     text-decoration: underline;
 }
 
-.home-img {
-    width: 600px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
-}
-
-.responsive-img {
-    max-width: 100%;
-    height: auto;
+img {
+    max-width: 750px; /* Max width to fit within the 800px container */
+    height: auto; /* Maintain aspect ratio */
     display: block;
     margin: 10px auto;
 }
 
 .photo-gallery {
-    max-width: 600px;
-    height: auto;
-    display: block;
-    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-    
+
 .photo-gallery img {
     margin: 10px;
-    max-width: 100%;
-    height: auto;
+    max-width: 750px; /* Max width to fit within the 800px container */
+    height: auto; /* Maintain aspect ratio */
 }
