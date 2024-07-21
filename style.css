@@ -1,6 +1,6 @@
 body {
     background-color: orange;
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -43,9 +43,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.fixed-size-img {
-    width: 400px;
-    height: 800px;
+.responsive-img {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 10px auto;
 }
@@ -58,6 +58,6 @@ nav a:hover {
 
 .photo-gallery img {
     margin: 10px;
-    width: 400px;
-    height: 800px;
+    max-width: 100%;
+    height: auto;
 }
