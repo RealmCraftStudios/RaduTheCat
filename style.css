@@ -46,8 +46,8 @@ nav a:hover {
 }
 
 img {
-    max-width: 750px; /* Max width to fit within the 800px container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Adjusts to fit within the container */
+    height: auto; /* Maintains aspect ratio */
     display: block;
     margin: 10px auto;
 }
@@ -59,7 +59,7 @@ img {
 }
 
 .photo-gallery img {
+    max-width: 100%; /* Adjusts to fit within the container */
+    height: auto; /* Maintains aspect ratio */
     margin: 10px;
-    max-width: 750px; /* Max width to fit within the 800px container */
-    height: auto; /* Maintain aspect ratio */
 }
