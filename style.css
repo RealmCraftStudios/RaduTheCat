@@ -43,9 +43,16 @@ nav a:hover {
     text-decoration: underline;
 }
 
-.responsive-img {
-    max-width: 600px;
+.home-img {
+    width: 400px;
     height: 800px;
+    display: block;
+    margin: 10px auto;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
     display: block;
     margin: 10px auto;
 }
@@ -59,5 +66,5 @@ nav a:hover {
 .photo-gallery img {
     margin: 10px;
     max-width: 100%;
-    height: 100%;
+    height: auto;
 }
