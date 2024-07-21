@@ -37,7 +37,7 @@ nav li {
 nav a {
     text-decoration: none;
     color: blue;
-}
+    cursor: url('Paw-Cursor.png'), auto;
 
 nav a:hover {
     text-decoration: underline;
