@@ -1,0 +1,44 @@
+body {
+    background-color: orange;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    max-width: 800px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    font-size: 36px;
+}
+
+p {
+    color: black;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
