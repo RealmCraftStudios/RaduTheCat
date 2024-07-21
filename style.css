@@ -1,6 +1,6 @@
 body {
     background-color: orange;
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Comic Sans', sans-serif;
     text-align: center;
     margin: 0;
     padding: 0;
@@ -45,7 +45,7 @@ nav a:hover {
 
 .responsive-img {
     max-width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     margin: 10px auto;
 }
